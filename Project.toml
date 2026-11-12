@@ -5,3 +5,5 @@ RareEventLab = "31c75b6d-e6d2-4b85-ae1c-26f25e6c00ea"
 
 [sources]
 RareEventLab = {path = "RareEventLab"}
+
+[compat] julia = "1.11"

@@ -1,4 +1,4 @@
-# Navigating the design parameter sea for rare-event sampling algorithms
+# Navigating the "design parameter sea" for rare-event sampling algorithms
 
 Practical session for the "Learning the Dynamics of Biological Macromolecules" research school, Cargèse, November 2026 (author: Noé Blassel).
 

@@ -94,7 +94,7 @@ function hill_rate(res::AMSResult)
     p, T_loop, p_T_react = m
     Σ = sum((x - m) * (x - m)' for x in X) / (M - 1)
     D = (1 - p) * T_loop + p_T_react # Hill rate denominator
-    ∇k = [T_loop + c, -p * (1 - p), -p] / D^2
+    ∇k = [T_loop + p_T_react, -p * (1 - p), -p] / D^2
     return (p / D, sqrt(∇k' * Σ * ∇k / M)) # standard error using delta method
 end
 
